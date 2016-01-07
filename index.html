@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <script>
+            var node = document.createElement('script');
+            node.src = 'empty.js';
+            document.head.appendChild(node);
+        </script>
+
+        <!-- empty stylesheet -->
+        <link rel="stylesheet" href="empty.css">
+
+        <!-- script tag containing at least 1 char (whitespace is enough) -->
+        <script>
+            console.log('script tag');
+        </script>
+
+    </head>
+
+    <body>
+        <script>
+            console.log('end of body');
+        </script>
+    </body>
+</html>
